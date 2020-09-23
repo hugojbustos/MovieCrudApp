@@ -1,0 +1,28 @@
+asgiref==3.2.10
+certifi==2020.6.20
+chardet==3.0.4
+colorama==0.4.3
+coverage==5.3
+<<<<<<< HEAD
+dj-database-url==0.5.0
+Django==3.1.1
+djangorestframework==3.11.1
+gunicorn==20.0.4
+httpie==2.2.0
+idna==2.10
+psycopg2==2.8.6
+=======
+Django==3.1.1
+djangorestframework==3.11.1
+httpie==2.2.0
+idna==2.10
+>>>>>>> a0b74591e4df19c51d68d7ea76f28fe7c9f71c88
+Pygments==2.7.1
+pytz==2020.1
+requests==2.24.0
+sqlparse==0.3.1
+urllib3==1.25.10
+<<<<<<< HEAD
+whitenoise==5.2.0
+=======
+>>>>>>> a0b74591e4df19c51d68d7ea76f28fe7c9f71c88
