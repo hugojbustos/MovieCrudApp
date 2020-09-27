@@ -32,7 +32,7 @@ SECRET_KEY = 'zqfc5$mrbhk8=pw5n_467!+=8=w2r=^b(c+gecq_rm8f%qodes'
 DEBUG = True
 #DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 # DATABASES = {'default': {}}
