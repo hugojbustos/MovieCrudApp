@@ -97,13 +97,21 @@ WSGI_APPLICATION = 'moviesapp.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'moviesapp.db',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'moviesapp.db',
+#     }
+# }
+from decouple import config
 
+DATABASES = {
+
+    'default': dj_database_url.config(
+        default=config('DATABASE_URL')
+    )
+
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
